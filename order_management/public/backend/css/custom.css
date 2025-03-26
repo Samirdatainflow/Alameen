@@ -1,0 +1,136 @@
+.bg-blue{
+	background-color: #0033c4 !important;
+	border-color:#0033c4 !important;
+}
+.mt-20{
+	margin-top: 20px;
+}
+.mt-100{
+	margin-top: 100px;
+}
+#loader{
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	z-index: 9999;
+	display: none;
+}
+#loader div{
+	position: absolute;
+	top:50%;
+	left: 50%;
+}
+.error{
+	color: red;
+}
+.rejected_row td{
+	color:red !important;
+}
+#new_order .list-group{
+	position: absolute;
+    z-index: 99;
+    height: 200px;
+    overflow-y: scroll;
+}
+#new_order .list-group a{
+	color:#000 !important;
+}
+.p-20{
+	padding: 20px;
+}
+.max-height-600{
+	height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.max-height-400{
+	height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.item-search .card-header, .all-item .card-header{
+	background-color: #0033c4 !important;
+}
+.item-search .card-title, .all-item .card-title{
+	color: #fff !important;
+}
+.item-search .card-body, .item-search .card-header, .item-search .card{
+	border-radius: 0px !important;
+}
+.item-search .card-body{
+	padding: 0px !important;
+}
+.item-search li{
+	cursor: pointer;
+}
+.item-search li:hover{
+	background-color: #0033c4 !important;
+	color:#fff !important;
+}
+.item-search .list-group{
+	border-radius: 0px !important;
+}
+html {
+  --scrollbarBG: #fff;
+  --thumbBG: #0033c4;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 2px solid var(--scrollbarBG);
+}
+.item-search .max-height-600::-webkit-scrollbar {
+  width: 6px;
+}
+.item-search .max-height-600{
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+.item-search .max-height-600::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+.item-search .max-height-600::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 2px solid var(--scrollbarBG);
+}
+.btn-back{
+	background-color: #fff !important;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 100%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #0033c4;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.item-search .list-group .active {
+    background-color: #0033c4 !important;
+    border: none;
+}
